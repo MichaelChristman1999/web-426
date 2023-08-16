@@ -17,6 +17,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
+  // Property to track user's login status.
   isLoggedIn: boolean = true;
+  // Property to store the assignment title.
   assignment: string = 'Exercise 2.3 - Data Binding';
 }
