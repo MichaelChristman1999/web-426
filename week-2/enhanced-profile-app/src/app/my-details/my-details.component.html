@@ -1,0 +1,23 @@
+<!--
+ * Title: my-details.component.html
+ * Author: Jennifer Hoitenga
+ * Date: August 16, 2023
+ * Description: This is the my-details component for the profile-app.
+ * Sources Used:
+ * Angular Tutorial for Beginners video by Professor Krasso
+ * Angular Tutorial - Data Binding & *ng Directives by Professor Krasso
+ * Bootstrap List-Group: https://getbootstrap.com/docs/4.0/components/list-group/
+ *-->
+
+<!--A Bootstrap unordered list of my details-->
+<ul class="list-group">
+  <li class="list-group-item">Name: {{ myProfile.fullName }}</li>
+  <li class="list-group-item">Favorite Food: {{ myProfile.favoriteFood }}</li>
+  <li class="list-group-item">Favorite Color: {{ myProfile.favoriteColor }}</li>
+  <li class="list-group-item">
+    Keywords:
+    <span *ngFor="let word of myProfile.keywords">
+      {{ word }}
+    </span>
+  </li>
+</ul>
