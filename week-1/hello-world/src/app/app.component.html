@@ -2,29 +2,37 @@
  * Title: app.component.html
  * Author: Jennifer Hoitenga
  * Date: August 7, 2023
+ * Description: This code is for the html portions of the hello-world project
  * Sources Used:
- * Angular Tutorial for Beginners video by Professor Krasso
+ * Angular Tutorial for Beginners video by Professor Krasso (https://youtu.be/XRm0SnUJROU)
  *-->
 
+<!-- This is the navigation bar -->
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <ul class="navbar-nav">
+    <!-- Home link -->
     <li class="nav-item active">
       <a class="nav-link active" href="#">Home</a>
     </li>
+    <!-- About link -->
     <li class="nav-item">
       <a class="nav-link" href="#">About</a>
     </li>
+    <!-- Contact Us link -->
     <li class="nav-item">
       <a class="nav-link" href="#">Contact Us</a>
     </li>
   </ul>
 </nav>
 
+<!-- This is the main content container -->
 <div class="container">
   <br /><br />
+  <!-- Section title -->
   <h2>Exercise 1.2 - Hello World!</h2>
   <div class="row">
     <div class="col-sm-12">
+      <!-- Success message -->
       <div class="alert alert-success">
         <strong>Message: </strong><span>{{ myWorld }}</span>
       </div>
