@@ -11,7 +11,6 @@
 
 // Import necessary modules from Angular core
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
 
 // Define the HomeComponent
 @Component({
@@ -20,7 +19,7 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./home.component.css'], // The CSS styles for this component
 })
 export class HomeComponent implements OnInit {
-  constructor(private route: ActivatedRoute) {}
+  constructor() {}
 
   ngOnInit(): void {}
 }
