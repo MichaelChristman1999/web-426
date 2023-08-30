@@ -5,8 +5,8 @@
       "name": "week-4"
     },
     {
-      "path": "./week-4/enhanced-composer-app",
-      "name": "enhanced-composer-app"
+      "path": "./week-4/di-composer-app",
+      "name": "di-composer-app"
     }
   ]
 }
