@@ -20,8 +20,6 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 // Import the ComposerDetailsComponent.
 import { ComposerDetailsComponent } from './composer-details/composer-details.component';
-// Import the Composer class.
-// import { Composer } from './composer.class';
 
 // The routes for the components.
 const routes: Routes = [
