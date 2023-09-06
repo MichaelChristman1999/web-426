@@ -31,7 +31,7 @@ export class BooksService {
         authors: ['Gillian Flynn'],
       },
       {
-        isbn: '9780143039976',
+        isbn: '1613473079',
         title: 'We Have Always Lived in the Castle',
         description:
           'Taking readers deep into a labyrinth of dark neurosis, We Have Always Lived in the Castle is a deliciously unsettling novel about a perverse, isolated, and possibly murderous family and the struggle that ensues when a cousin arrives at their estate. ',
